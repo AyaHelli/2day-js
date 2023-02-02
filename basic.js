@@ -26,3 +26,11 @@
 // }
 
 // console.log(ageCalculator());
+
+// function convertor (){
+//     let degrees = prompt("Enter the degree");
+//     let formula = (Math.PI/180);
+//     return `your ${degrees} degrees ammount ${degrees * formula} radians`
+// }
+
+// document.write(convertor());
