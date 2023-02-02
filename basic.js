@@ -59,3 +59,5 @@ function timeconverter() {
 
 
 }
+
+console.log(timeconverter())
