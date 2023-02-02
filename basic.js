@@ -34,3 +34,15 @@
 // }
 
 // document.write(convertor());
+
+// function calculation (){
+
+//     let width = prompt("Width of the item?");
+//     let height = prompt("Height of the item?");
+//     let depth = prompt ("Depth of the item?");
+
+//     return `your area is ${width * height} and the volume is ${width *height*depth}. `;
+
+// }
+// document.write(calculation());
+
