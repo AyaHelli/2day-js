@@ -10,12 +10,19 @@
 // let favoriteFoods=["pizza", "hamburger", "ice cream" , "chocolate"];
 // console.log(favoriteFoods[random]);
 
-function crystalGrazer(){
-    let child=prompt("please ,enter your number of children");
-    let name= prompt("give your lastname");
-    let geol=prompt("provide your location");
-    let jobtittles=prompt("your jobtittle");
-    return `you will be a ${jobtittles} in ${geol} and married to ${name} with ${child} children`;
-}
-document.write(crystalGrazer());
+// function crystalGrazer(){
+//     let child=prompt("please ,enter your number of children");
+//     let name= prompt("give your lastname");
+//     let geol=prompt("provide your location");
+//     let jobtittles=prompt("your jobtittle");
+//     return `you will be a ${jobtittles} in ${geol} and married to ${name} with ${child} children`;
+// }
+// document.write(crystalGrazer());
 
+// function ageCalculator(){
+//     let birth = prompt("insert your year of birth");
+//     let current = new Date().getFullYear();
+//     return `${current - birth}`;
+// }
+
+// console.log(ageCalculator());
