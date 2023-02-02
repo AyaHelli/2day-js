@@ -10,8 +10,12 @@
 // let favoriteFoods=["pizza", "hamburger", "ice cream" , "chocolate"];
 // console.log(favoriteFoods[random]);
 
-function crystalGrazer(nchild,pname,geo,jobtittle){
-    document.write(`you will be a ${jobtittle} in ${geo} and married to ${pname} with ${nchild} children`);
-
+function crystalGrazer(){
+    let child=prompt("please ,enter your number of children");
+    let name= prompt("give your lastname");
+    let geol=prompt("provide your location");
+    let jobtittles=prompt("your jobtittle");
+    return `you will be a ${jobtittles} in ${geol} and married to ${name} with ${child} children`;
 }
-crystalGrazer(2,"Potter","Austria","Manager");
+document.write(crystalGrazer());
+
