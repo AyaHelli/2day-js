@@ -46,3 +46,18 @@
 // }
 // document.write(calculation());
 
+//Time convert//
+
+function timeconverter(){
+    let inputnumber = prompt("Insert the desired minutes to convert");
+    if (inputnumber>60){
+        var hours = inputnumber / 60 ;
+        var hoursnatural= Math.floor(hours);
+        var resulting = inputnumber - (hoursnatural *60);
+        return ` your ${inputnumber} transformed into: ${hoursnatural} hours and ${resulting} minutes.`
+    }
+    
+
+}
+
+console.log(timeconverter())
