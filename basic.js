@@ -25,14 +25,37 @@
 //     return `${current - birth}`;
 // }
 
-// console.log(ageCalculator(1990));
+// console.log(ageCalculator());
+
+// function convertor (){
+//     let degrees = prompt("Enter the degree");
+//     let formula = (Math.PI/180);
+//     return `your ${degrees} degrees ammount ${degrees * formula} radians`
+// }
+
+// document.write(convertor());
+
+// function calculation (){
+
+//     let width = prompt("Width of the item?");
+//     let height = prompt("Height of the item?");
+//     let depth = prompt ("Depth of the item?");
+
+//     return `your area is ${width * height} and the volume is ${width *height*depth}. `;
+
+// }
+// document.write(calculation());
+
+//Time convert//
+
+function timeconverter() {
+    let inputnumber = prompt("Insert the desired minutes to convert");
+    if (inputnumber > 60) {
+        var hours = inputnumber / 60;
+        var hoursnatural = Math.floor(hours);
+        var resulting = inputnumber - (hoursnatural * 60);
+        return ` your ${inputnumber} transformed into: ${hoursnatural} hours and ${resulting} minutes.`
+    }
 
 
-function sum(a, b) {
-    return a + b;
-}
-
-function sum2(a, b) {
-    let result = a + b;
-    return result;
 }
