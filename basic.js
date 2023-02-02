@@ -54,10 +54,13 @@ function timeconverter(){
         var hours = inputnumber / 60 ;
         var hoursnatural= Math.floor(hours);
         var resulting = inputnumber - (hoursnatural *60);
-        return ` your ${inputnumber} transformed into: ${hoursnatural} hours and ${resulting} minutes.`
+        return ` Your ${inputnumber} transformed into: ${hoursnatural} hours and ${resulting} minutes.`
     }
-    
+    else {
+        var minutes = inputnumber;
+        return `You have only ${minutes} minutes.`
+    }
 
 }
 
-console.log(timeconverter())
+document.write(timeconverter());
