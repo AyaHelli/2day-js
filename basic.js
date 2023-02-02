@@ -1,4 +1,4 @@
-// let temp= Math.floor(Math.random()*30)-5;
+// let temp= Math.floor(Math.random()*31)-5;
 // console.log(temp);
 // if (temp<11){
 //     console.log("The weather is Cold")
@@ -19,10 +19,20 @@
 // }
 // document.write(crystalGrazer());
 
-// function ageCalculator(){
+// function ageCalculator(birth){
 //     let birth = prompt("insert your year of birth");
 //     let current = new Date().getFullYear();
 //     return `${current - birth}`;
 // }
 
-// console.log(ageCalculator());
+// console.log(ageCalculator(1990));
+
+
+function sum(a, b) {
+    return a + b;
+}
+
+function sum2(a, b) {
+    let result = a + b;
+    return result;
+}
